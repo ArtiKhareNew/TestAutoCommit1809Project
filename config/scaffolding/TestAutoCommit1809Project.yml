@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/ArtiKhareNew
   gitUsername: ArtiKhareNew
   gitBranch: main
+services:
+- serviceName: project.testautocommit1809.integrations:ss
+  packages:
+  - name: TestAutoCommit1809Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1143
